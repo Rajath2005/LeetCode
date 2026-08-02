@@ -12,7 +12,7 @@
 public class Solution {
     public boolean hasCycle(ListNode head) {
 
-        ArrayList<ListNode>Arr=new ArrayList<>();
+        Set<ListNode>Arr=new HashSet<>();
 
         ListNode curr=head;
 
